@@ -6,7 +6,7 @@ const staticRoot = path.resolve(__dirname,"./public/");
 
 app.use("/",express.static(staticRoot));
 
-const port = 80;
+const port = 611;
 app.listen(port,() => {
     console.log("server");
 })
